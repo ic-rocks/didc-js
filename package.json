@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "A JS/Wasm package for generating Candid bindings.",
   "main": "pkg/didc_js.js",
+  "types": "pkg/didc_js.d.ts",
+  "files": [
+    "pkg/**/*"
+  ],
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
